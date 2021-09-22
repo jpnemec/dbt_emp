@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: pc_fivetran_db
+    database: pc_fivetran_db
+    schema: raw_employee
+    tables:
+      - name: department
+      - name: department_employee
+      - name: department_manager
+      - name: departures
+      - name: employee
+      - name: salaries
+      - name: titles
